@@ -48,8 +48,6 @@ void * nextList(List * list) {
   }else{
     return NULL;
   }
-
-    return (void *)list->current->data;
 }
 
 void * lastList(List * list) {
