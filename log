@@ -404,3 +404,9 @@ Wed Mar 24 02:29:02 UTC 2021:
  1 file changed, 5 insertions(+)
  tests:  0|0
 50bd0f2
+Wed Mar 24 02:29:22 UTC 2021: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|5
+total_score: 15/70
+6f19d0c
