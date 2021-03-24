@@ -42,7 +42,7 @@ void * firstList(List * list) {
 }
 
 void * nextList(List * list) {
-  if((list->current->next) != NULL){
+  if((list->current->next) != list->tail){
     list->current = list->current->next;
     return (void *)list->current->data;
   }else{
