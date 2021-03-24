@@ -56,7 +56,7 @@ void * lastList(List * list) {
 }
 
 void * prevList(List * list) {
-  if(list->current->prev != NULL){
+  if(list->tail->prev != NULL){
     list->current = list->current->prev;
     return (void *)list->current->prev->data;
   }else{
@@ -65,6 +65,8 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, const void * data) {
+  //void *x = createNode(x);
+  //if()
 }
 
 void pushBack(List * list, const void * data) {
