@@ -86,6 +86,7 @@ void pushCurrent(List * list, const void * data) {
   if(list->current->next == NULL){
     x->prev = list->tail;
     list->tail = x;
+    x->next = NULL;
   }else{
     x->prev = list->current;
     list->current->next = x;
