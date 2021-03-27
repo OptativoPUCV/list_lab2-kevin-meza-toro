@@ -123,7 +123,7 @@ void * popCurrent(List * list) {
     list->current->prev->next = list->current->next;
     list->current->next->prev = list->current->prev;
   }
-  Node *aux = createNode(list->current);
+  Node *aux = createNode(list);
   aux = list->current;
   free(list->current);
   return (void *)aux->data;
