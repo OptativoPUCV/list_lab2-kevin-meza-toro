@@ -125,7 +125,7 @@ void * popCurrent(List * list) {
   }
   Node *aux = createNode(list->current->data);
   free(list->current);
-  return (void *)aux;
+  return (void *)aux->data;
 }
 
 void cleanList(List * list) {
