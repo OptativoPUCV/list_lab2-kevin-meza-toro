@@ -124,6 +124,7 @@ void * popCurrent(List * list) {
     list->current->next->prev = list->current->prev;
   }
   Node *aux = createNode(list->current);
+  aux = list->current;
   free(list->current);
   return (void *)aux->data;
 }
